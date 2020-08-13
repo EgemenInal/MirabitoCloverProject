@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cloverlogintestmirabito"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="25" />
+9-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+11-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:5:5-71
+11-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:5:22-68
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <application
+15-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:9:5-30:19
+16        android:allowBackup="true"
+16-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] C:\Users\Egemen\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:14:9-35
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:15:9-40
+24        <activity
+24-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:16:9-19:68
+25            android:name="com.example.cloverlogintestmirabito.jasonactivity"
+25-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:17:13-42
+26            android:label="@string/title_activity_jasonactivity"
+26-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:18:13-65
+27            android:theme="@style/AppTheme.NoActionBar" />
+27-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:19:13-56
+28        <activity android:name="com.example.cloverlogintestmirabito.MainMenu" />
+28-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:20:9-46
+28-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:20:19-43
+29        <activity android:name="com.example.cloverlogintestmirabito.BarcodeScannerTestActivity" />
+29-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:21:9-64
+29-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:21:19-61
+30        <activity android:name="com.example.cloverlogintestmirabito.Main2Activity" />
+30-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:22:9-51
+30-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:22:19-48
+31        <activity android:name="com.example.cloverlogintestmirabito.MainActivity" >
+31-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:23:9-29:20
+31-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:23:19-47
+32            <intent-filter>
+32-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:24:13-28:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:25:17-69
+33-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:25:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:27:17-77
+35-->C:\Users\Egemen\Desktop\git\cloverlogintestmirabito-master\app\src\main\AndroidManifest.xml:27:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>
